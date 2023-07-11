@@ -1,0 +1,5 @@
+body{
+font-weight:bold,
+color:#ff0000,
+background-color:aque
+}
