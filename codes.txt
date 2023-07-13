@@ -1,0 +1,59 @@
+
+to make clone to your github project:
+git clone  https://github.com/Scorpion99199/GitCourse.git
+
+to show the status of your working directory:
+git status
+
+you can add file to the staging area by his name like this:
+git add css/
+
+to add all the files you have:
+git add *
+
+to restore file from the staging area before it been commited :
+git restore --staged <file>
+
+to commit the file from stage area to local repo:
+git commit -m "here is the message"
+
+to push to remote repo:
+git push remotename branchname
+
+you can get the remotename:
+git remote -v
+
+you can get the branches you have :
+git branch
+
+ex:
+git push origin main
+
+
+to pull any modication in the project:
+git pull origin
+
+everything about configuration :
+to show all the configuration:
+git config -l
+
+to show specefic configuration:
+git config --global user.email
+
+to add to specefic configuration:
+git config --global user.email "the new value"
+
+to remove from configuration:
+git config --global unset user.email 
+
+
+generate public key :
+ssh-keygen -t rsa -b 4096 -C "bismillah99199"
+
+
+
+
+
+
+
+
